@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="./assets/js/main.js"></script>
+  <title>Foundations By Sky</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="./assets/img/black_logo.webp?light" media="(prefers-color-scheme:no-preference)">
+<link rel="icon" href="./assets/img/image.webp?dark"  media="(prefers-color-scheme:dark)">
+<link rel="icon" href="./assets/img/black_logo.webp?light" media="(prefers-color-scheme:light)">
+  <link href="./assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="text-black dark:text-white bg-white dark:bg-gray-800">
+  <nav
+    class="w-full dark:bg-gray-900 bg-white lg:px-40 sm:px-10 px-2 sm:flex justify-between items-center border-b-1 border-gray-600">
+    <div class="flex px-4 justify-between sm:py-0 pb-1">
+      <a href="/">
+        <img src="./assets/img/black_logo.png" class="block dark:hidden h-20 my-4" alt="Black Foundations By Sky Logo">
+        <img src="./assets/img/image.webp" class="hidden dark:block h-20 my-4" alt="White Foundations By Sky Logo">
+      </a>
+
+      <button class=' text-3xl sm:hidden block focus:outline-none'>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </button>
+    </div>
+
+    <ul class='hidden sm:flex cursor-pointer' id="myLinks">
+      <li
+        class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
+        <a href="/">Home</a>
+      </li>
+      <li
+        class='py-4 px-6 sm:border-b-2 border-purple-300 hover:text-purple-400 transition duration-200 dark:text-purple-300 text-purple-700 hover:bg-gray-800 sm:hover:bg-transparent'>
+        <a href="about-me.html">About Me</a>
+      </li>
+      <li
+        class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
+        <a href="contact-me.html">Contact Me</a>
+      </li>
+      <li
+        class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
+        <a href="book-now.html">Book Now</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="hero min-h-screen bg-gradient-to-r from-purple-500 to-blue-500">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-center text-5xl md:text-6xl font-bold text-white">Foundations By Sky</h1>
+        <button class="btn btn-primary mt-10">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="dark:bg-gray-900 bg-white dark:text-white text-black pt-12 pb-8 px-4">
+    <div class="mx-auto px-4 container overflow-hidden flex flex-col lg:flex-row justify-between">
+      <a href="/" class="block mr-4 w-1/3">
+        <img src="./assets/img/black_logo.png" class="block dark:hidden w-40 ml-4 lg:ml-0" alt="logo">
+        <img src="./assets/img/image.webp" class="hidden dark:block w-40 ml-4 lg:ml-0" alt="logo">
+      </a>
+      <div class="w-2/3 block sm:flex text-sm mt-6 lg:mt-0">
+        <ul class="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
+          <li class="inline-block py-2 px-3 dark:text-white text-black uppercase font-medium tracking-wide">Sitemap</li>
+          <li><a href="./about-me.html"
+              class="inline-block py-2 px-3 dark:text-white text-black hover:text-gray-500 dark:hover:text-gray-500 no-underline">Home</a>
+          </li>
+          <li><a href="./book-now.html"
+              class="inline-block py-2 px-3 dark:text-white text-black hover:text-gray-500 dark:hover:text-gray-500 no-underline">Book
+              Now</a></li>
+          <li><a href="./contact-me.html"
+              class="inline-block py-2 px-3 dark:text-white text-black hover:text-gray-500 dark:hover:text-gray-500 no-underline">Contact
+              Me</a>
+          </li>
+          <li><a href="./about-me.html"
+              class="inline-block py-2 px-3 dark:text-white text-black hover:text-gray-500 dark:hover:text-gray-500 no-underline">About
+              Me</a></li>
+        </ul>
+        <div class="text-gray-700 flex flex-col w-full">
+          <div class="inline-block py-2 px-3 dark:text-white text-black uppercase font-medium tracking-wide">Follow Us
+          </div>
+          <div class="flex pl-4 justify-start mt-2">
+            <a class="flex items-center dark:text-white text-black hover:text-gray-500 dark:hover:text-gray-500 mr-6 no-underline"
+              href="https://www.facebook.com/foundationsbysky/">
+              <svg viewBox="0 0 24 24" class="fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" mt-4 pt-6 text-gray-600 border-t border-gray-300 dark:border-gray-800 text-center"> © 2022 Foundations
+      By Sky. All rights reserved.</div>
+    <div class=" mt-4 pt-6 text-gray-600 text-center"> Created by Alexavier Brink</div>
+  </footer>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+
+</html>
