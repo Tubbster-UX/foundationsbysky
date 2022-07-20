@@ -4,8 +4,9 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script defer src="./assets/js/main.js"></script>
-  <title>Foundations By Sky</title>
-  <meta charset="utf-8" />
+  <meta name="description" content="Foundations By Sky is a massage therapist and structural integrator business owned and operated by Chandelle Brink.">
+  <title>Foundations By Sky Contact Me</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="icon" href="./assets/img/black_logo.webp?light" media="(prefers-color-scheme:no-preference)">
   <link rel="icon" href="./assets/img/image.webp?dark" media="(prefers-color-scheme:dark)">
@@ -14,52 +15,59 @@
 </head>
 
 <body class="text-black dark:text-white bg-gray-100 dark:bg-gray-800">
-  <nav
-    class="w-full dark:bg-gray-900 bg-white lg:px-40 sm:px-10 px-2 sm:flex justify-between items-center border-b-1 border-gray-600">
-    <div class="flex px-4 justify-between sm:py-0 pb-1">
+  <header class="lg:px-16 px-6 dark:bg-gray-900 text-black dark:text-white bg-white flex flex-wrap items-center lg:py-0 py-2">
+    <div class="flex-1 flex justify-between items-center">
       <a href="/">
-        <img src="./assets/img/black_logo.png" class="block dark:hidden h-20 w-auto my-4"
-          alt="Black Foundations By Sky Logo">
-        <img src="./assets/img/image.webp" class="hidden dark:block h-20 w-auto my-4"
-          alt="White Foundations By Sky Logo">
+        <img src="./assets/img/black_logo.png" loading="lazy" class="block dark:hidden h-20 w-auto my-4" alt="Black Foundations By Sky Logo">
+        <img src="./assets/img/image.webp" loading="lazy" class="hidden dark:block h-20 w-auto my-4" alt="White Foundations By Sky Logo">
       </a>
+  </div>
 
-      <button class=' text-3xl sm:hidden block focus:outline-none' title="Mobile Navbar Open" label="Facebook">
-        <a href="javascript:void(0);" title="Mobile Navbar Open" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+   <label for="menu-toggle" class="pointer-cursor lg:hidden block"><svg class="fill-current text-gray-600 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
+  <input class="hidden" type="checkbox" id="menu-toggle" />
+
+  <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+    <nav>
+      <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+        <a href="/">
+          <li
+            class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-200 dark:hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
+            Home
+          </li>
         </a>
-      </button>
-    </div>
+        <a href="about-me.html">
+          <li
+            class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-200 dark:hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
+            About Me
+          </li>
+        </a>
+        <a href="contact-me.html">
+          <li
+            class='py-4 px-6 sm:border-b-2 border-purple-300 hover:text-purple-400 transition duration-200 dark:text-purple-300 text-purple-700 hover:bg-gray-200 dark:hover:bg-gray-800 sm:hover:bg-transparent'>
+            Contact Me
+          </li>
+        </a>
+        <a href="book-now.html">
+          <li
+            class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-200 dark:hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
+            Book Now
+          </li>
+        </a>
+      </ul>
+    </nav>
 
-    <ul class='hidden sm:flex cursor-pointer' id="myLinks">
-      <li
-        class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
-        <a href="/">Home</a>
-      </li>
-      <li
-        class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
-        <a href="about-me.html">About Me</a>
-      </li>
-      <li
-        class='py-4 px-6 sm:border-b-2 border-purple-300 hover:text-purple-400 transition duration-200 dark:text-purple-300 text-purple-700 hover:bg-gray-800 sm:hover:bg-transparent'>
-        <a href="contact-me.html">Contact Me</a>
-      </li>
-      <li
-        class='dark:text-white text-black py-4 px-6 sm:border-b-2 border-transparent hover:border-purple-300 sm:hover:text-purple-400 dark:sm:hover:text-purple-700 transition hover:bg-gray-800 duration-200 sm:hover:bg-transparent'>
-        <a href="book-now.html">Book Now</a>
-      </li>
-    </ul>
-  </nav>
+
+  </div>
+
+  </header>
 
   <div>
     <div>
       <h1 class="text-6xl font-bold text-center my-5">Contact Me</h1>
     </div>
-    <div class="grid grid-cols-2 text-center place-content-center">
-      <p class="text-2xl">Phone:</p>
-      <p class="text-2xl">Email:</p>
-      <p class="text-2xl">(605) 786-4810</p>
-      <p class="text-2xl">Skyl@thebrinks.com</p>
+    <div class="grid grid-cols-1 md:grid-cols-2  text-center place-content-center">
+      <div><p class="text-2xl">Phone:</p><p class="text-2xl"><a href="tel:6057864810">(605) 786-4810</a></p></div>
+      <div><p class="text-2xl">Email:</p><p class="text-2xl"><a href="mailto:Skyl@thebrinks.com">Skyl@thebrinks.com</a></p></div>
     </div>
     <div class="my-10">
       <h1 class="text-4xl text-center"><a
@@ -68,24 +76,21 @@
         <i class="center mt-5 fa-brands fa-facebook fa-2xl"></i>
       </a>
     </div>
-    <div class="w-auto mx-64 mb-20">
-      <iframe
-      width="100%" height="600"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1433.2049802143822!2d-103.23804181901052!3d44.0748912271526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877d4384e82a5419%3A0xc0d6ec87b9ffbe6a!2sFoundations%20By%20Sky!5e0!3m2!1sen!2sus!4v1658294083918!5m2!1sen!2sus"
-        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="flex flex-row justify-center items-center mb-20">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.3750455958016!2d-103.23510578421288!3d44.07561203303024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x877d4384e82a5419%3A0xc0d6ec87b9ffbe6a!2sFoundations%20By%20Sky!5e0!3m2!1sen!2sus!4v1658331561316!5m2!1sen!2sus" class="w-96 h-96" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
   </div>
 
   <footer class="dark:bg-gray-900 bg-white dark:text-white text-black pt-12 pb-8 px-4">
     <div class="mx-auto px-4 container overflow-hidden flex flex-col lg:flex-row justify-between">
       <a href="/" class="block mr-4 w-1/3">
-        <img src="./assets/img/black_logo.png" class="block dark:hidden w-40 h-auto ml-4 lg:ml-0" alt="logo">
-        <img src="./assets/img/image.webp" class="hidden dark:block w-40 ml-4 h-auto lg:ml-0" alt="logo">
+        <img src="./assets/img/black_logo.png" loading="lazy" class="block dark:hidden w-40 h-auto ml-4 lg:ml-0" alt="logo">
+        <img src="./assets/img/image.webp" loading="lazy" class="hidden dark:block w-40 ml-4 h-auto lg:ml-0" alt="logo">
       </a>
       <div class="w-2/3 block sm:flex text-sm mt-6 lg:mt-0">
         <ul class="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
           <li class="inline-block py-2 px-3 dark:text-white text-black uppercase font-medium tracking-wide">Sitemap</li>
-          <li><a href="./about-me.html"
+          <li><a href="/"
               class="inline-block py-2 px-3 dark:text-white text-black hover:text-gray-500 dark:hover:text-gray-500 no-underline">Home</a>
           </li>
           <li><a href="./book-now.html"
